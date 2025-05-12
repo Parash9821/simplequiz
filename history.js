@@ -50,9 +50,7 @@ const questions=[{
       
     ]
 
-},             
-                
-                ];
+},];
 const New_questions=document.getElementById("questions");
 const answer_btn=document.getElementById("answer-buttons");
 const next_btn=document.getElementById("nextbtn");
