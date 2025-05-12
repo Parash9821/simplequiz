@@ -23,7 +23,7 @@ const questions=[{
     question: "The second world war started in the year",
     answer: [
         { text:"1942", correct:false},
-        { text:"1941 correct:false},
+        { text:"1941", correct:false},
         { text:"1940", correct:false},
         { text:"1939", correct:true},
     ]
