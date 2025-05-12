@@ -1,45 +1,58 @@
 const questions=[{
-    question: "When was modern Nepal was founded ?",
+    question: "During the first world war, which country signed the peace treaty(1917) with Germany",
     answer: [
-             {text: "1840 BS", correct:false},
-             {text: "1888 BS" ,correct:false},
-             {text: "include", correct:true},
-             {text: "float", correct:false},
+             {text: "England", correct:false},
+             {text: "USA" ,correct:false},
+             {text: "Russia", correct:true},
+             {text: "Austria", correct:false},
 
     ]
 
 },
 {
-     question: "Wnen did Monarcy ended in Nepal ?",
+     question: "The last country of Axis power to surrender during the end of the world war II was ",
     answer: [
-        { text:"2063 BS", correct:true},
-        { text:"int", correct:false},
-        { text:"float", correct:false},
-        { text:"double", correct:false},
+        { text:"Germany", correct:false},
+        { text:"Japan", correct:true},
+        { text:"Italy", correct:false},
+        { text:"France", correct:false},
     ]
 
 },
 {
-    question: "Who was the first sciencetist of Nepal ",
+    question: "The second world war started in the year",
     answer: [
-        { text:"2ndName", correct:false},
-        { text:"None of the above", correct:false},
-        { text:"#name", correct:false},
-        { text:"_name", correct:true},
+        { text:"1942", correct:false},
+        { text:"1941 correct:false},
+        { text:"1940", correct:false},
+        { text:"1939", correct:true},
     ]
 
 },
 {
-    question: "Who Founded the USA ?",
+    question: "Who was the US President during the world war II ?",
     answer:[
-      {text:"To print output",correct:true},
-      {text:"To read input",correct:false},
-      {text:"To perform calculation",correct:false},
-      {text:"To control program flow",correct:false},
+      {text:"Winston Churchill",correct:false},
+      {text:"Joseph Stalin",correct:false},
+      {text:"Franklin D Roosevelt",correct:true},
+      {text:"Harry S Truman",correct:false},
       
     ]
 
-},];
+},
+    {
+    question: "When did Greco-Persian Wars end ?",
+    answer:[
+      {text:"460 BC",correct:false},
+      {text:"447 BC Stalin",correct:false},
+      {text:"449 BC",correct:true},
+      {text:"424 BC",correct:false},
+      
+    ]
+
+},             
+                
+                ];
 const New_questions=document.getElementById("questions");
 const answer_btn=document.getElementById("answer-buttons");
 const next_btn=document.getElementById("nextbtn");
