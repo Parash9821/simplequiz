@@ -47,6 +47,7 @@ header h1 {
 .navbar .abc:hover {
   background: white;
   color: rgb(55, 54, 54);
+  width: auto;
 }
 
 /* Main content */
