@@ -129,6 +129,7 @@ header h1 {
   .navbar {
     flex-direction: column;
     align-items: center;
+    border-radius:30%;
   }
   
   .navbar .abc {
