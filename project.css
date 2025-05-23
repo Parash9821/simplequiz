@@ -159,7 +159,7 @@ header h1 {
    .style{
     display: flex;
   }
-  .nav-toggle:checked+.style+.navbar{
+  .nav-toggle:checked+ .style+ .navbar{
   display: flex;
 }
 
