@@ -33,6 +33,17 @@ header h1 {
   flex-wrap: wrap;
   padding: 10px 0;
 }
+
+
+.navbar .abc {
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  margin: 0 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  transition: color 0.3s;
+}
 .style {
   display: none;
   flex-direction: column;
@@ -50,15 +61,6 @@ header h1 {
   align-items: center;
 }
 
-.navbar .abc {
-  color: white;
-  text-decoration: none;
-  padding: 12px 20px;
-  margin: 0 10px;
-  font-size: 1rem;
-  border-radius: 6px;
-  transition: color 0.3s;
-}
 
 .navbar .abc:hover {
   background: white;
