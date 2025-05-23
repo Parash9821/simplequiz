@@ -33,6 +33,22 @@ header h1 {
   flex-wrap: wrap;
   padding: 10px 0;
 }
+.style {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+.style span {
+  height: 3px;
+  width: 25px;
+  background-color: white;
+  border-radius: 2px;
+}
+.nav-toggle{
+  display:none ;
+  align-items: center;
+}
 
 .navbar .abc {
   color: white;
@@ -138,6 +154,15 @@ header h1 {
     width: 100%;
     text-align: center;
   }
+   .style{
+    display: flex;
+  }
+  .nav-toggle:checked+.style+.navbar{
+  display: flex;
+}
+.lastbutton{
+  align-items: center;
+}
 }
 .about-container {
   max-width: 900px;
