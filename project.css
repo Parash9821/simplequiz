@@ -160,9 +160,7 @@ header h1 {
   .nav-toggle:checked+.style+.navbar{
   display: flex;
 }
-.lastbutton{
-  align-items: center;
-}
+
 }
 .about-container {
   max-width: 900px;
